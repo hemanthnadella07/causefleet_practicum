@@ -1,6 +1,8 @@
-campaign_id,org_id,name,goal_amount,start_date,end_date,channel
-CMP-2023-ANN,ORG-001,2023 Annual Campaign,25000000.0,2023-01-01,2023-12-31,Omnichannel
-CMP-2024-ANN,ORG-001,2024 Annual Campaign,27000000.0,2024-01-01,2024-12-31,Omnichannel
-CMP-2025-ANN,ORG-001,2025 Annual Campaign,29000000.0,2025-01-01,2025-12-31,Omnichannel
-CMP-2025-GALA,ORG-001,2025 Fall Hope Gala,2000000.0,2025-09-01,2025-10-31,Special Event
-CMP-2026-ANN,ORG-001,2026 Building Tomorrow,30000000.0,2026-01-01,2026-12-31,Omnichannel
+campaign_id,org_id,name,goal_amount,start_date,end_date,channel,is_emergency_appeal
+CMP-2022-ANN,ORG-HUM-01,2022 Clean Water & Food Hope,28000000.0,2022-01-01,2022-12-31,Omnichannel,False
+CMP-2023-ANN,ORG-HUM-01,2023 Clean Water & Food Hope,30000000.0,2023-01-01,2023-12-31,Omnichannel,False
+CMP-2024-ANN,ORG-HUM-01,2024 Clean Water & Food Hope,32000000.0,2024-01-01,2024-12-31,Omnichannel,False
+CMP-2024-EMERGENCY-HORN-AFRICA,ORG-HUM-01,East Africa Flash Flood Emergency Relief,3500000.0,2024-05-01,2024-07-31,Digital Surge,True
+CMP-2025-ANN,ORG-HUM-01,2025 Global Poverty Relief,34000000.0,2025-01-01,2025-12-31,Omnichannel,False
+CMP-2025-GALA,ORG-HUM-01,2025 Fall Hope Gala for Education,2500000.0,2025-09-01,2025-10-31,Special Event,False
+CMP-2026-ANN,ORG-HUM-01,2026 Resilient Communities Initiative,35000000.0,2026-01-01,2026-12-31,Omnichannel,False

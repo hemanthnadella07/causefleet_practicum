@@ -1,20 +1,21 @@
 {
-  "archetype": "Mid-Tier Nonprofit ($30M)",
-  "org_id": "ORG-001",
-  "org_name": "Metro Children & Family Foundation",
-  "sector": "Human Services",
-  "annual_target": 30000000.0,
-  "simulation_years": [2023, 2024, 2025, 2026],
-  "donor_population": 2500,
-  "pareto_distribution": {
-    "small_tier_pct": 0.80,
-    "mid_tier_pct": 0.17,
-    "major_tier_pct": 0.03
+  "archetype": "International Humanitarian Relief (10M-50M Range)",
+  "org_id": "ORG-HUM-01",
+  "org_name": "Global Hope International Relief",
+  "sector": "International Humanitarian (Food, Water, Education)",
+  "target_annual_revenue": 32450000.0,
+  "simulation_years": [2022, 2023, 2024, 2025, 2026],
+  "exact_donor_population": 5123,
+  "cash_reserves_months": 5.4,
+  "monthly_burn_rate": 2650000.0,
+  "donor_type_distribution": {"Individual": 0.88, "Foundation": 0.08, "Corporation": 0.04},
+  "giving_level_distribution": {
+    "Under 100":0.62,"100-999":0.26,"1,000-$9,999": 0.09,
+    "10,000-99,999": 0.026, "$100,000+": 0.004
   },
   "storylines": {
-    "enable_declining_major_donor": true,
-    "target_major_donor_id": "DNR-00042",
-    "enable_first_time_cliff": true,
-    "gala_campaign_id": "CMP-2025-GALA"
+    "storyline_1_major_donor_id": "DNR-00042",
+    "storyline_2_gala_campaign_id": "CMP-2025-GALA",
+    "storyline_3_disaster_campaign_id": "CMP-2024-EMERGENCY-HORN-AFRICA"
   }
 }

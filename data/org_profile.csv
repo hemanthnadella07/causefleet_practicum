@@ -1,2 +1,2 @@
-org_id,name,sector,annual_budget,fiscal_year_start,is_synthetic_label
-ORG-001,Metro Children & Family Foundation,Human Services,30000000.0,2023-01-01,True
+org_id,name,sector,annual_budget,cash_reserves_months,monthly_burn_rate,fiscal_year_start,is_synthetic_label
+ORG-HUM-01,Global Hope International Relief,"International Humanitarian (Food, Water, Education)",32450000.0,5.4,2650000.0,2022-01-01,True
