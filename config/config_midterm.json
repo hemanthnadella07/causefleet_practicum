@@ -1,0 +1,20 @@
+{
+  "archetype": "Mid-Tier Nonprofit ($30M)",
+  "org_id": "ORG-001",
+  "org_name": "Metro Children & Family Foundation",
+  "sector": "Human Services",
+  "annual_target": 30000000.0,
+  "simulation_years": [2023, 2024, 2025, 2026],
+  "donor_population": 2500,
+  "pareto_distribution": {
+    "small_tier_pct": 0.80,
+    "mid_tier_pct": 0.17,
+    "major_tier_pct": 0.03
+  },
+  "storylines": {
+    "enable_declining_major_donor": true,
+    "target_major_donor_id": "DNR-00042",
+    "enable_first_time_cliff": true,
+    "gala_campaign_id": "CMP-2025-GALA"
+  }
+}

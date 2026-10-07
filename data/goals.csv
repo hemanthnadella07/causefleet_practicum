@@ -1,0 +1,4 @@
+goal_id,campaign_id,target_metric,target_value,deadline
+GL-01,CMP-2025-ANN,Total Revenue,29000000.0,2025-12-31
+GL-02,CMP-2025-GALA,Event Revenue,2000000.0,2025-10-31
+GL-03,CMP-2026-ANN,Total Revenue,30000000.0,2026-12-31

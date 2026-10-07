@@ -1,0 +1,4 @@
+staff_id,org_id,full_name,title,email,role
+STF-01,ORG-001,Sarah Jenkins,Director of Development,synthetic.sjenkins@demo-causefleet.org,Executive
+STF-02,ORG-001,Marcus Vance,Major Gifts Officer,synthetic.mvance@demo-causefleet.org,Fundraiser
+STF-03,ORG-001,Elena Rostova,Annual Giving Specialist,synthetic.erostova@demo-causefleet.org,Coordinator
